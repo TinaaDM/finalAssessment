@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Tina Danesh Maslak">
+  <meta name="description" content="Personal Website, Final Assessment - Spring 2022">
+  <title>Final Assessment 2022</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+ <header>
+    <div class="user">
+      <img src="./images/lucy1.jpeg" alt="Tina Image" class="user-image">
+      <h3 class="name">Tina Danesh Maslak</h3>
+      <p class="status">Computer Programming Student</p>
+    </div>
+
+    <nav class="navbar">
+      <ul>
+          <li><a href="#home">About Me</a></li>
+          <li><a href="#about">Basic Information</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+ </header>
+
+  <div id="menu" class="fa fa-bars"></div>
+
+  <section class="home" id="home">
+
+      <h3>Hello,</h3>
+      <h1>I'm <span>Tina Danesh Maslak</span></h1>
+      <p>My name is Tina and I'm studying computer programming at Seneca College. 
+        I'm interested in programming because it does include a lot of creativity and hardworking.
+        Moreover, I found myself really passionate about HTML, CSS and JavaScript languages and I'm enthusiastically looking forward to learning more about these areas also improving my background in software development to pursue my career. These days I'm learning more about jQuery becasue web developers must expand their knowledge on every aspects especially in JavaScript. </p>
+      <a href="#about"><button class="btn">Basic Information <i class="fas fa-user"></i></button></a>
+
+  </section>
+
+  <section id="about" class="about">
+
+      <h1 class="heading"><span id="info">Basic Information</span> <span class="dec">& Declaration</span></h1>
+      <div class="row">
+
+          <div class="info">
+            <h3><span>Age:</span>26</h3>
+            <h3><span>Email:</span>tdanesh-maslak@myseneca.ca</h3>
+            <h3><span>Language:</span>English</h3>
+            <h3><span>Class Section:</span>WEB222</h3>
+            <h3><span>Student ID:</span>160705216</h3>
+            <h3><span>Instructor:</span>Noman Atique</h3>
+            <h3><span>Date:</span>2022-08-09</h3>
+            <a href="./cv/Tina DM.pdf" donwload><button class="btn">Download CV <i class="fas-fa-download"></i></button></a>
+            
+          </div>
+          
+          <div class="hnst">
+
+              
+                <div class="declaration">
+                  I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.
+                </div>
+              
+
+          </div>
+
+      </div>
+
+  </section>
+
+
+  <section class="education" id="education">
+
+    <h1 class="heading">My <span id="info">Education</span></h1>
+
+    <div class="box-container">
+
+      <div class="box">
+        <span>2021 - 2023 (expected)</span>
+        <h3>Computer Programming</h3>
+        <p>Seneca College</p>
+      </div>
+
+      <div class="box">
+        <span>2015 - 2019</span>
+        <h3>Bachelor of Biology</h3>
+        <p>Guilan University</p>
+      </div>
+
+    </div>
+
+  </section>
+
+<section class="contact" id="contact">
+
+  <h1 class="heading"><span id="info">Contact</span> Me</h1>
+
+    <div class="row">
+
+        <div class="content">
+
+            <h3 class="title">Contact Info</h3>
+
+              <div class="info">
+                <h3><i class="fas fa-envelope"></i> <span class="ema">tdanesh-maslak@myseneca.ca</span></h3>
+                <h3><i class="fa-solid fa-location-dot"></i> North York </h3>
+                <h3><i class="fa-solid fa-map"></i> Toronto</h3>
+                <h3><i class="fa-solid fa-envelopes-bulk"></i> M2N 7E3</h3>
+              </div>
+
+        </div>
+
+      <form action="https://httpbin.org/post" method="post">
+        <input type="text" placeholder="Full Name" class="box">
+        <input type="email" placeholder="Email Address" class="box">
+        <textarea name="" id="" cols="15" rows="5" class="box message" placeholder="Your Message Here"></textarea>
+        <br>
+        <div id="myradio">
+          <input type="radio" class="question" name="radio" value="a"> Question
+        <input type="radio" class="comment" name="radio" value="b"> Comment
+        <input type="radio" class="hiring" name="radio" value="c"> Hiring
+        </div>
+        <div id="hiring">
+            
+        </div>
+        <br>
+        <button type="submit" class="btn"> Send <i class="fas fa-paper-plane"></i></button>
+      </form>
+
+
+    </div>
+
+
+</section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
